@@ -1,0 +1,4 @@
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\bin\Release\DAO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\bin\Release\DAO.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\obj\Release\DAO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\obj\Release\DAO.pdb

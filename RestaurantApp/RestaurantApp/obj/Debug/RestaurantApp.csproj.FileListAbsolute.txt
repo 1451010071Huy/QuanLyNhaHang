@@ -1,0 +1,19 @@
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.exe.config
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.exe
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csprojResolveAssemblyReference.cache
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.Properties.Resources.resources
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.GenerateResource.Cache
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.exe
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.FrmLogin.resources
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\DAO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\DAO.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\BUS.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\BUS.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.FrmHome.resources
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\DTO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\RestaurantApp\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.exe.config
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.exe
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb

@@ -1,0 +1,7 @@
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\bin\Debug\DAO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\bin\Debug\DAO.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\obj\Debug\DAO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\obj\Debug\DAO.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\bin\Debug\DTO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache

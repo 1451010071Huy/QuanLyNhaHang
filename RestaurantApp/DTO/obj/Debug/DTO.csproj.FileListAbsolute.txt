@@ -1,0 +1,4 @@
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\bin\Debug\DTO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\obj\Debug\DTO.dll
+C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\obj\Debug\DTO.pdb
