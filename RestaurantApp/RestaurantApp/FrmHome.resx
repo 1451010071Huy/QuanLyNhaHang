@@ -2082,4 +2082,7 @@
         V252dXaZ8YeXy0ysmwntYP9rm655x4apbTXz4v/6PEz4D3LXetUrfiDIAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

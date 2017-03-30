@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
             this.btnPhucVuKhachHang = new System.Windows.Forms.Button();
             this.btnQuanLyThucDon = new System.Windows.Forms.Button();
@@ -49,6 +50,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.labNguoiDung = new System.Windows.Forms.Label();
             this.labLoaiTaiKhoan = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -228,9 +230,9 @@
             // labGio
             // 
             this.labGio.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labGio.Location = new System.Drawing.Point(-1, 0);
+            this.labGio.Location = new System.Drawing.Point(-1, 25);
             this.labGio.Name = "labGio";
-            this.labGio.Size = new System.Drawing.Size(159, 86);
+            this.labGio.Size = new System.Drawing.Size(159, 61);
             this.labGio.TabIndex = 2;
             this.labGio.Text = "Giờ";
             this.labGio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -309,7 +311,12 @@
             this.labLoaiTaiKhoan.TabIndex = 9;
             this.labLoaiTaiKhoan.Text = "Administator";
             // 
-            // HomePage
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -330,7 +337,7 @@
             this.Controls.Add(this.btnBaoCaoThongKe);
             this.Controls.Add(this.btnQuanLyHoaDon);
             this.Controls.Add(this.btnPhucVuKhachHang);
-            this.Name = "HomePage";
+            this.Name = "FrmHome";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Restaurant App";
@@ -370,6 +377,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label labNguoiDung;
         private System.Windows.Forms.Label labLoaiTaiKhoan;
+        private System.Windows.Forms.Timer timer;
     }
 }
 
