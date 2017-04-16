@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using System.Data.SqlClient;
 using System.Data;//Thư viện chứa thuộc tính .State
-
+using System.Configuration;// Thư viện kết nối vs database
 
 namespace DAO
 {
@@ -14,18 +14,19 @@ namespace DAO
     public class DataProvider
     {
         string cnStr = "";
-        SqlConnection cn;
-        public DataProvider()
+        SqlConnection cnn;
+        public SqlConnection getConnect()
         {
-            cnStr = "Data Source=.;Initial Catalog=QLNhaHang;Integrated Security=True";
-            cn = new SqlConnection(cnStr);
+            cnStr = ConfigurationManager.ConnectionStrings["cnStr"].ConnectionString;
+            cnn = new SqlConnection(cnStr);
+            return cnn;
         }
 
 
         public SqlCommand CountLogin()
         {
             string sql = "SELECT COUNT(*) FROM DanhSachTaiKhoan WHERE DanhSachTaiKhoan.Username =@username AND DanhSachTaiKhoan.Password = @password";   
-            return new SqlCommand(sql, cn);
+            return new SqlCommand(sql, cnn);
         }
 
         /// <summary>
@@ -35,8 +36,8 @@ namespace DAO
         {
             try
             {
-                if (cn != null && cn.State == ConnectionState.Closed)
-                    cn.Open();
+                if (cnn != null && cnn.State == ConnectionState.Closed)
+                    cnn.Open();
             }
             catch (SqlException ex)
             {
@@ -50,8 +51,8 @@ namespace DAO
         {
             try
             {
-                if (cn != null && cn.State == ConnectionState.Open)
-                    cn.Close();
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
             }
             catch (SqlException ex)
             {
@@ -64,7 +65,7 @@ namespace DAO
             Connect();
             try
             {
-                SqlCommand cmd = new SqlCommand(sql, cn);
+                SqlCommand cmd = new SqlCommand(sql, cnn);
                 return (cmd.ExecuteReader());
             }
             catch (SqlException ex)
@@ -79,7 +80,7 @@ namespace DAO
             Connect();
             try
             {
-                SqlCommand cmd = new SqlCommand(sql, cn);
+                SqlCommand cmd = new SqlCommand(sql, cnn);
                 cmd.CommandType = type;
                 if(paras != null)
                 {

@@ -2,3 +2,23 @@ C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\bin\Debug\DTO.dll
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\bin\Debug\DTO.pdb
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\obj\Debug\DTO.dll
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\DTO\obj\Debug\DTO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\DTO.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\DTO.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\DTO.pdb
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\mscorlib.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\normidna.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\normnfc.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\normnfd.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\normnfkc.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\normnfkd.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.pdb
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\DTO.dll
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\DTO\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.dll
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\DTO\obj\Debug\DTO.pdb

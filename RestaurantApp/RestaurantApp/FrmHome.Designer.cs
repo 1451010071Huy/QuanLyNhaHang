@@ -89,6 +89,7 @@
             this.btnQuanLyThucDon.Text = "Quản lý thực đơn";
             this.btnQuanLyThucDon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnQuanLyThucDon.UseVisualStyleBackColor = false;
+            this.btnQuanLyThucDon.Click += new System.EventHandler(this.btnQuanLyThucDon_Click);
             // 
             // btnQuanLyHoaDon
             // 
@@ -169,6 +170,7 @@
             this.btnTienIch.Text = "Tiện ích";
             this.btnTienIch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnTienIch.UseVisualStyleBackColor = false;
+            this.btnTienIch.Click += new System.EventHandler(this.btnTienIch_Click);
             // 
             // btnQuanLyKhachHang
             // 
@@ -320,7 +322,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.GreenYellow;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.labLoaiTaiKhoan);
             this.Controls.Add(this.labNguoiDung);

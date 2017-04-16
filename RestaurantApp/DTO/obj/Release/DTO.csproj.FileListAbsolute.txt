@@ -1,0 +1,4 @@
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\bin\Release\DTO.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\bin\Release\DTO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\obj\Release\DTO.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\DTO\obj\Release\DTO.pdb

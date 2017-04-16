@@ -7,3 +7,36 @@ C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\obj\Debug\BUS.dll
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\obj\Debug\BUS.pdb
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\bin\Debug\DTO.dll
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.dll
+C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.pdb
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.pdb
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\mscorlib.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.pdb
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.pdb
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\normidna.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\normnfc.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\normnfd.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\normnfkc.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\normnfkd.nlp
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.dll
+C:\Users\MRTHINH\Desktop\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.pdb
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.dll
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.pdb
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.dll
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.dll
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.pdb
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.pdb
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.dll
+C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.pdb

@@ -13,15 +13,14 @@ namespace BUS
     public class BUS_Login
     {
         //sử lý đăng nhập thành công hay ko, thành công trả về 1, ko thành công trả về 0
-        public int IsLogin(string username, string password)
+        public int IsLogin(DTO_Login lg)
         {
-            DTO_Login lgDTO = new DTO_Login(username,password);
-            if (lgDTO.userName == "User Name" || lgDTO.passWord == "Password")
+            if (lg.userName == "User Name" || lg.passWord == "Password")
                 return 2;
             else
             {
                 DAO_Login lgDAO = new DAO_Login();
-                if (lgDAO.IsLogin(username, password) == 1)
+                if (lgDAO.IsLogin(lg) == 1)
                     return 1;
                 else
                     return 0;

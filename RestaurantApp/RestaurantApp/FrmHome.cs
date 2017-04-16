@@ -23,6 +23,7 @@ namespace RestaurantApp
         private void Form1_Load(object sender, EventArgs e)
         {
             labNgayGio.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            
         }
 
 
@@ -38,6 +39,18 @@ namespace RestaurantApp
         private void timer_Tick(object sender, EventArgs e)
         {   
             labGio.Text = DateTime.Now.ToString("HH:mm");
+        }
+
+        private void btnQuanLyThucDon_Click(object sender, EventArgs e)
+        {
+            FrmQuanLyThucDon frm = new FrmQuanLyThucDon();
+            frm.ShowDialog();
+        }
+
+        private void btnTienIch_Click(object sender, EventArgs e)
+        {
+            FrmTienIch frm = new FrmTienIch();
+            frm.ShowDialog();
         }
     }
 }

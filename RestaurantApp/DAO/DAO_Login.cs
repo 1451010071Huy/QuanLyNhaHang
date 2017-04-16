@@ -10,17 +10,18 @@ namespace DAO
 {
     public class DAO_Login
     {
-        public int IsLogin(string username, string password)
+        public int IsLogin(DTO_Login lg)
         {
             try
             {
-                DTO_Login lg = new DTO_Login(username, password);
-                DataProvider dt = new DataProvider();
-                dt.Connect();
-                SqlCommand command = dt.CountLogin();
-                command.Parameters.Add(new SqlParameter("@username", lg.userName));
-                command.Parameters.Add(new SqlParameter("@password", lg.passWord));
-                int kq = (int)command.ExecuteScalar();
+                DataProvider dp = new DataProvider();
+                dp.getConnect();
+                dp.Connect();
+                SqlCommand cmd = dp.CountLogin();
+                cmd.Parameters.Add(new SqlParameter("@username", lg.userName));
+                cmd.Parameters.Add(new SqlParameter("@password", lg.passWord));
+                int kq = (int)cmd.ExecuteScalar();//tra ve so nguyen 1, 0
+                dp.DisConnect();
                 return kq;// đăng nhập thàng công = 1, ko thành công = 0;
             }
             catch (SqlException ex)
@@ -29,6 +30,7 @@ namespace DAO
                 throw ex;
             }
             
+
         }
     }
 }
