@@ -7,3 +7,12 @@ C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\obj\Debug\BUS.dll
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\obj\Debug\BUS.pdb
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\bin\Debug\DTO.dll
 C:\Users\OU\Desktop\Hinh Anh Ung Dung\RestaurantApp\BUS\bin\Debug\DTO.pdb
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.dll
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\obj\Debug\BUS.pdb
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.dll
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\BUS.pdb
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.dll
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.dll
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DAO.pdb
+C:\Users\USER\Desktop\LTCSDL\QuanLyNhaHang\RestaurantApp\BUS\bin\Debug\DTO.pdb

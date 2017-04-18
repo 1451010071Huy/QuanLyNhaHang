@@ -17,8 +17,14 @@ namespace DAO
         SqlConnection cn;
         public DataProvider()
         {
-            cnStr = "Data Source=.;Initial Catalog=QLNhaHang;Integrated Security=True";
+            cnStr = @"Data Source=DESKTOP-Q75A6S2;Initial Catalog=QLNhaHang;Integrated Security=True";
             cn = new SqlConnection(cnStr);
+        }
+        public SqlConnection getConnect()
+        {
+            cnStr = @"Data Source=DESKTOP-Q75A6S2;Initial Catalog=QLNhaHang;Integrated Security=True";
+            cn = new SqlConnection(cnStr);
+            return cn;
         }
 
 

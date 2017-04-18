@@ -39,5 +39,17 @@ namespace RestaurantApp
         {   
             labGio.Text = DateTime.Now.ToString("HH:mm");
         }
+
+        private void btnQuanLyNhanVien_Click(object sender, EventArgs e)
+        {
+            FrmEmployee frm = new FrmEmployee();
+            frm.ShowDialog();
+        }
+
+        private void btnQuanLyKhachHang_Click(object sender, EventArgs e)
+        {
+            FrmCustomer frm1 = new FrmCustomer();
+            frm1.ShowDialog();
+        }
     }
 }
