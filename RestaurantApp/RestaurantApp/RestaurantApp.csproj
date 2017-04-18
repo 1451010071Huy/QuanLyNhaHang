@@ -59,6 +59,12 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmQLHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLHoaDon.Designer.cs">
+      <DependentUpon>FrmQLHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmQuanLyThucDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLHoaDon.resx">
+      <DependentUpon>FrmQLHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmQuanLyThucDon.resx">
       <DependentUpon>FrmQuanLyThucDon.cs</DependentUpon>

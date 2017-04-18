@@ -51,6 +51,7 @@
             this.labNguoiDung = new System.Windows.Forms.Label();
             this.labLoaiTaiKhoan = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -61,6 +62,7 @@
             // btnPhucVuKhachHang
             // 
             this.btnPhucVuKhachHang.BackColor = System.Drawing.Color.Red;
+            this.btnPhucVuKhachHang.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPhucVuKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPhucVuKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPhucVuKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -77,6 +79,7 @@
             // btnQuanLyThucDon
             // 
             this.btnQuanLyThucDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnQuanLyThucDon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanLyThucDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanLyThucDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyThucDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -94,6 +97,7 @@
             // btnQuanLyHoaDon
             // 
             this.btnQuanLyHoaDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnQuanLyHoaDon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanLyHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanLyHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyHoaDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -106,10 +110,12 @@
             this.btnQuanLyHoaDon.Text = "Quản lý hóa đơn";
             this.btnQuanLyHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnQuanLyHoaDon.UseVisualStyleBackColor = false;
+            this.btnQuanLyHoaDon.Click += new System.EventHandler(this.btnQuanLyHoaDon_Click);
             // 
             // btnQuanLyKhoHang
             // 
             this.btnQuanLyKhoHang.BackColor = System.Drawing.Color.Teal;
+            this.btnQuanLyKhoHang.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanLyKhoHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanLyKhoHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyKhoHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -126,6 +132,7 @@
             // btnBaoCaoThongKe
             // 
             this.btnBaoCaoThongKe.BackColor = System.Drawing.Color.OliveDrab;
+            this.btnBaoCaoThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBaoCaoThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaoCaoThongKe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBaoCaoThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -142,6 +149,7 @@
             // btnQuanLyNhanVien
             // 
             this.btnQuanLyNhanVien.BackColor = System.Drawing.Color.Navy;
+            this.btnQuanLyNhanVien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanLyNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanLyNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -158,6 +166,7 @@
             // btnTienIch
             // 
             this.btnTienIch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnTienIch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTienIch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTienIch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTienIch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -175,6 +184,7 @@
             // btnQuanLyKhachHang
             // 
             this.btnQuanLyKhachHang.BackColor = System.Drawing.Color.Purple;
+            this.btnQuanLyKhachHang.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanLyKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanLyKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -318,12 +328,24 @@
             this.timer.Enabled = true;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label3.Location = new System.Drawing.Point(1218, 68);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Đăng xuất";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GreenYellow;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.labLoaiTaiKhoan);
             this.Controls.Add(this.labNguoiDung);
             this.Controls.Add(this.pictureBox3);
@@ -339,12 +361,12 @@
             this.Controls.Add(this.btnBaoCaoThongKe);
             this.Controls.Add(this.btnQuanLyHoaDon);
             this.Controls.Add(this.btnPhucVuKhachHang);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "FrmHome";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Restaurant App";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HomePage_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -380,6 +402,7 @@
         private System.Windows.Forms.Label labNguoiDung;
         private System.Windows.Forms.Label labLoaiTaiKhoan;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Label label3;
     }
 }
 

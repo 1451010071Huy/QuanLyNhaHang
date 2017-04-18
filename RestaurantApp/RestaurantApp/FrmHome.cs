@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 //using DTO;
 using BUS;
@@ -27,14 +28,14 @@ namespace RestaurantApp
         }
 
 
-        private void HomePage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            DialogResult dlr = MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (dlr == DialogResult.Cancel)
-                e.Cancel = true;
-            else
-                e.Cancel = false;
-        }
+        //private void HomePage_FormClosing(object sender, FormClosingEventArgs e)
+        //{
+        //    DialogResult dlr = MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+        //    if (dlr == DialogResult.Cancel)
+        //        e.Cancel = true;
+        //    else
+        //        e.Cancel = false;
+        //}
 
         private void timer_Tick(object sender, EventArgs e)
         {   
@@ -51,6 +52,25 @@ namespace RestaurantApp
         {
             FrmTienIch frm = new FrmTienIch();
             frm.ShowDialog();
+        }
+
+        private void btnQuanLyHoaDon_Click(object sender, EventArgs e)
+        {
+            FrmQuanLyHoaDon frm = new FrmQuanLyHoaDon();
+            frm.ShowDialog();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            DialogResult dlr = MessageBox.Show("Bạn có muốn đăng xuất không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dlr == DialogResult.Yes)
+            {
+                this.Hide();
+                FrmLogin frmLogin = new FrmLogin();
+                frmLogin.ShowDialog();
+                this.Close();
+            }
+           
         }
     }
 }

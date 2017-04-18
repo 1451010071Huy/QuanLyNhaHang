@@ -19,7 +19,6 @@ namespace RestaurantApp
     {
         string userName = "";
         string passWord = "";
-
         public FrmLogin()
         {
             InitializeComponent();
@@ -34,8 +33,9 @@ namespace RestaurantApp
             {
                 this.Hide();
                 FrmHome frmHome = new FrmHome();
-                frmHome.Show();
-                
+                frmHome.ShowDialog();
+                this.Close();
+
             }
             else if (ketQua == 2)
             {      
@@ -48,7 +48,7 @@ namespace RestaurantApp
             }
 
         }
-
+      
         private void FrmLogin_Load(object sender, EventArgs e)
         {
             txtUsername.Text = "User Name";

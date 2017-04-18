@@ -89,7 +89,7 @@
             this.dgvDanhMuc.AllowUserToResizeRows = false;
             this.dgvDanhMuc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDanhMuc.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
-            this.dgvDanhMuc.BackgroundColor = System.Drawing.Color.Gray;
+            this.dgvDanhMuc.BackgroundColor = System.Drawing.Color.Silver;
             this.dgvDanhMuc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvDanhMuc.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dgvDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -481,7 +481,7 @@
             this.dgvMonAn.AllowUserToResizeRows = false;
             this.dgvMonAn.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvMonAn.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
-            this.dgvMonAn.BackgroundColor = System.Drawing.Color.Gray;
+            this.dgvMonAn.BackgroundColor = System.Drawing.Color.Silver;
             this.dgvMonAn.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvMonAn.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dgvMonAn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -557,7 +557,7 @@
             this.dgvCongThuc.AllowUserToResizeRows = false;
             this.dgvCongThuc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCongThuc.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
-            this.dgvCongThuc.BackgroundColor = System.Drawing.Color.Gray;
+            this.dgvCongThuc.BackgroundColor = System.Drawing.Color.Silver;
             this.dgvCongThuc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvCongThuc.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dgvCongThuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -621,7 +621,8 @@
             // 
             // lblMaMonAn
             // 
-            this.lblMaMonAn.BackColor = System.Drawing.Color.Black;
+            this.lblMaMonAn.BackColor = System.Drawing.Color.Transparent;
+            this.lblMaMonAn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lblMaMonAn.Location = new System.Drawing.Point(1309, 82);
             this.lblMaMonAn.Name = "lblMaMonAn";
             this.lblMaMonAn.Size = new System.Drawing.Size(41, 13);
@@ -630,7 +631,7 @@
             // 
             // lblMaNguyenLieu
             // 
-            this.lblMaNguyenLieu.BackColor = System.Drawing.Color.Black;
+            this.lblMaNguyenLieu.BackColor = System.Drawing.Color.Transparent;
             this.lblMaNguyenLieu.Location = new System.Drawing.Point(1309, 109);
             this.lblMaNguyenLieu.Name = "lblMaNguyenLieu";
             this.lblMaNguyenLieu.Size = new System.Drawing.Size(41, 13);
