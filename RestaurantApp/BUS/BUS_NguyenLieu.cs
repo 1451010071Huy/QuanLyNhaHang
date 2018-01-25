@@ -16,6 +16,7 @@ namespace BUS
         {
             return Nl.getNguyenLieu();
         }
+        //Them ghi chu
         public int getNguyenLieu2() {
             return 1;
         }
