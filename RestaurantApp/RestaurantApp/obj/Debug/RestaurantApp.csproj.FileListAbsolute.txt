@@ -74,3 +74,6 @@ C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\Restaura
 C:\Users\OU\Desktop\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.FrmTienIch.resources
 C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.FrmTienIch.resources
 C:\Users\OU\Desktop\Git\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.FrmQuanLyHoaDon.resources
+C:\Users\Admin\Desktop\QuanLyNhaHang\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.exe.config
+C:\Users\Admin\Desktop\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.exe
+C:\Users\Admin\Desktop\QuanLyNhaHang\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb
